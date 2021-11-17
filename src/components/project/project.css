@@ -1,0 +1,68 @@
+.project-container {
+  display: block;
+}
+
+.project-top {
+  margin: 0px 165px;
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-top h2 {
+  margin-bottom: 12px;
+  font-size: 48px;
+  color: #1e3240;
+}
+
+.project-top p {
+  font-weight: normal;
+  font-size: 18px;
+  color: #bdbdbd;
+}
+
+.top-content {
+  display: block;
+}
+.top-arrow {
+  display: flex;
+  align-items: flex-end;
+}
+
+.slide {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 84px;
+  margin-bottom: 86px;
+  margin-left: 165px;
+}
+
+.card {
+  position: relative;
+  width: 350px;
+  height: 490px;
+}
+.card-content {
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  width: 290px;
+  height: 80px;
+  margin: -40px 30px;
+}
+.card-content img {
+  height: 450px;
+}
+.card-content h2 {
+  display: block;
+}
+.card-contentArea {
+  display: flex;
+  align-items: center;
+}
+.card-contentArea p {
+    margin-top: 6px;
+  font-weight: normal;
+  font-size: 10px;
+  color: #1e3240;
+}
